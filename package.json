@@ -7,5 +7,8 @@
     "prepare": "cd ./apps/nextjs-app && yarn && cd ../nextjs-pages && yarn && cd ../react-vite && yarn"
   },
   "author": "alan2207",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-import-resolver-typescript": "^4.4.4"
+  }
 }
